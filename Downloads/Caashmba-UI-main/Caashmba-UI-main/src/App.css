@@ -1,0 +1,15 @@
+h2 {
+  font-family: 'Play', sans-serif;
+}
+
+.range::-webkit-slider-thumb {
+  background: #00fd0a !important;
+}
+
+a,
+
+.heading{
+  border-image:  linear-gradient(90deg, #004987 1.29%, #63B8C2 97.79%);
+  border-width: 4px;
+  border-style: solid;
+}
