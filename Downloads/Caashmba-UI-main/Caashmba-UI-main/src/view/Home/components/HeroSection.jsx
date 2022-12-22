@@ -3,8 +3,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 const HeroSection = () => {
   return (
-    <div>
+    <div >
       <div className="flex flex-col justify-center items-center bg-hero-img bg-cover py-5">
+        <div className="max-w-[1000px] w-full mx-auto">
         <h2 className="md:text-[70px] font-display text-center  text-2xl tracking-tight text-white opacity-[1] leading-[1.3] pt-2">
           Welcome to <br></br>NFT MarketPlace
         </h2>
@@ -31,6 +32,8 @@ const HeroSection = () => {
             </Link>
           </div>
         </div>
+        </div>
+       
       </div>
      
       <div className="md:max-w-[800px] max-w-[400px] w-full mx-auto px-5">

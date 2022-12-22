@@ -48,7 +48,7 @@ const steps = [
               subcategory
             </h4>
             <div>
-              <Form.Item className="w-full mb-4">
+              <Form.Item className="w-full">
                 <Select options={documentOptions} />
               </Form.Item>
             </div>
