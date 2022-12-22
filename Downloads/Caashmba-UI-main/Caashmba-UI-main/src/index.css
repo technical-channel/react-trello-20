@@ -19,11 +19,9 @@
   flex-direction:column
 }
 :where(.css-dev-only-do-not-override-26rdvq).ant-steps .ant-steps-item-title::after {
-  /* position: absolute; */
-  /* top: 16px; */
-  /* inset-inline-start: 100%; */
+ 
   display: none;
-  /* width: 9999px; */
+
   height: 1px;
   background: rgba(5, 5, 5, 0.06);
   content: "";
@@ -34,4 +32,12 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Play', sans-serif;
+}
+:where(.css-dev-only-do-not-override-26rdvq).ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+
+  height: 46px;
+
+}
+:where(.css-dev-only-do-not-override-26rdvq).ant-steps .ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title {
+  color: #009688;
 }

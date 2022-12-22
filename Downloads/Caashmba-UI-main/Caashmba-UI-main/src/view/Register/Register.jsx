@@ -20,10 +20,12 @@ const RegisterPage = () => {
     }
   ]
   return (
-    <div className="h-screen bg-gradient-to-tr from-navy to-secondary flex items-center justify-center flex-col">
-      <img src={process.env.PUBLIC_URL + "/assets/Framelogo.svg"} className="mb-10 w-[120px]" />
+    
+ <div className="bg-gradient-to-tr from-navy to-secondary px-5 py-5">
+  <div className="max-w-[500px] w-full mx-auto ">
+      <img src={process.env.PUBLIC_URL + "/assets/logo.png"} className="mb-5 w-[120px] mx-auto" />
       <button onClick={() => navigate(-1)} className="fixed left-0 top-0 m-6 text-white font-bold flex items-center gap-2"><ArrowLeftOutlined />Go Back</button>
-      <div className="h-max w-[30%] bg-white rounded-[15px] py-5">
+      <div className="h-max bg-white rounded-[15px] py-5">
         <div className="flex items-center justify-center flex-col h-full">
           <div className="text-center mb-5">
             <h2 className="font-display text-[38px] text-secondary">Register</h2>
@@ -101,6 +103,9 @@ const RegisterPage = () => {
         </div>
       </div>
     </div>
+
+    </div>
+   
   )
 }
 export default RegisterPage;
