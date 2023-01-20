@@ -38,6 +38,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 46px;
 
 }
-:where(.css-dev-only-do-not-override-26rdvq).ant-steps .ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title {
-  color: #009688;
+:where(.css-dev-only-do-not-override-26rdvq).ant-steps .ant-steps-item-wait>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title,
+:where(.css-dev-only-do-not-override-26rdvq).ant-steps .ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title 
+,:where(.css-dev-only-do-not-override-26rdvq).ant-steps .ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title{
+
+  color: #009688!important;
 }
+
